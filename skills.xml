@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<oper_skills>
+	<oskill>SQL</oskill>
+	<oskill_1>Git</oskill_1>
+	<oskill_2>Postman</oskill_2>
+	<oskill_3>Feedler</oskill_3>
+	<oskill_4>Charles</oskill_4>
+	<oskill_5>HTTP</oskill_5>
+	<oskill_6>CSS</oskill_6>
+	<oskill_7>REST</oskill_7>
+	<oskill_8>SOAP</oskill_8>
+</oper_skills>
+<role_skills>
+	<rskill>Quality assurance</rskill>
+	<rskill_1>Quality control<rskill_1>
+	<rskill_2>Copywriting</rskill_2>
+	<rskill_3>Technical writing</rskill_3>
+	<rskill_4>Narrative design</rskill_4>
+	<rskill_5>Game design</rskill_5>
+	<rskill_6>Project management</rskill_6>
+	<rskill_7>Business analytics</rskill_7>
+</role_skills>
