@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<report>
+  <id>1234</id>
+  <project>Yet enother project</project>
+  <title>After click Upgrade button in the Main menu, the server returns a 404 status code</title>
+  <repeatability>100%</repeatability>
+  <version>2.3401 dev</version>
+  <preconditions>For accounts with Free plan</preconditions>
+  <str>
+    <step1>Log in with the Free plan account</step1>
+    <step2>Click the Hamburger button to call up the Main menu</step2>
+    <step3>Click the Upgrade button</step3>
+  </str>
+  <actual_result>The Subscription page doesn't load, the server returns a 404 status code</actual_result>
+  <expected_result>The Subscription page is loading</expected_result>
+  <status>Open</status>
+  <severity>Blocker</severity>
+  <priority>High</priority>
+  <environment>Google Chrome 114.0.5735.134</environment>
+  <attachment>Subscription_404.log</attachment>
+  <reporter>Aleksandr Makushev</reporter>
+  <assignee>Backend developer name</assignee>
+  <observers>Backend lead, QA lead, enother QA employee</observers>
+</report>
