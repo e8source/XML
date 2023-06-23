@@ -30,21 +30,21 @@ Work with GIT, gitbash
         touch preferences.xml
  10. В файл preferences.xml добавит информацию о своих предпочтениях в формате XML (музыка, игра, фильм, сериал).
  
-        nano preferences.xml
+         nano preferences.xml
  11. Создать файл skills.xml добавить информацию о скиллах в формате XML.
  
-        touch skills.xml  
-        nano skills.xml 
+         touch skills.xml  
+         nano skills.xml 
  12. Сделать коммит в одну строку. 
-
-        git add . && git commit -m "add preferences.xml and skills.xml"
+ 
+         git add . && git commit -m "add preferences.xml and skills.xml"
  13. Отправить сразу 2 файла на внешний репозиторий. 
  
-        git push
+         git push
  14. На веб интерфейсе создать файл bug_report.xml.
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. Синхронизировать внешний и локальный репозиторий XML. 
-
-        git pull
+ 
+         git pull
